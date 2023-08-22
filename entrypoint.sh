@@ -23,7 +23,7 @@ fi
 
 echo "Downloading Bundletool..."
 bundletool="bundletool.jar"
-bundletoolUrl="https://github.com/google/bundletool/releases/download/0.13.4/bundletool-all.jar"
+bundletoolUrl="https://github.com/google/bundletool/releases/download/1.15.4/bundletool-all-1.15.4.jar"
 
 exec wget -nv --quiet "${bundletoolUrl}" --output-document="${bundletool}" &
 wait
